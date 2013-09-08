@@ -14,17 +14,71 @@ $blockgray: 	#EFEFEF;
 $blockblue:		#3B97D3;
 /***Fonts***/
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300);
+@font-face {
+	font-family: haymaker;
+	src: url(fonts/'Haymaker.ttf');
+}
 
 body {
 	font-family: 'open-sans', sans-serif;
 	font-weight: 300;
+	h2 {
+		font-weight: 300;
+		text-align: center;
+		font-size: 5em;
+		margin: 0 0 25px 0;
+	}
 }
 
+.navbar {
+	position: relative;
+	border-bottom: 4px solid $shadowgray;
+	nav {
+		ul {
+			text-align: justify;
+			list-style: none;
+			padding: 0 9em;
+			margin: -15px 0 0 0;
+			height: 100px;
+			li {
+				margin: 0;
+				display: inline-block;  
+				font-weight: 300;
+				text-transform: uppercase;
+				font-size: 1.2em;
+				h1 {
+					font-weight: 300;
+					font-family: 'haymaker', 'open-sans', sans-serif;
+					color: #bdbdbd;
+					text-shadow: 1px 2px 3px #838183;
+					font-size: 2em;
+				}
+				a {
+					text-decoration: none;
+					color: black;
+					
+				}
+			}
+			&:after {
+				content: '';
+				width: 100%;
+				border-bottom: 5px dashed #922d8d;
+				display: inline-block;
+			}  
+		}
+		
+	}
+}
+
+
+
+/**
 .navbar {
 	background: white;
 	border-bottom: 5px solid $shadowgray;
 	background: orange;
 	margin: 0;
+	text-transform: uppercase;
 	ul {
 		list-style: none;
 		background: tomato;
@@ -38,20 +92,25 @@ body {
 				color: black;
 				h1 {
 					margin: 0;
-					text-transform: uppercase;
 					color: $shadowgray;
 				}
 			}
 		}
 	}
 }
+**/
 
 .intro {
 	background: $blockgray;
 	.introimg {
-		width: 80%;
-		margin-right: auto;
-		margin-left: auto;
+		width: 55%;
+		margin: 0 auto;
+		background: blue;
+		img {
+			width: 100%;
+			margin: 0 auto;
+			background: red;
+		}
 	}
 }
 
@@ -63,10 +122,6 @@ body {
 	}
 	h2 {
 		clear: both;
-		font-weight: 300;
-		text-align: center;
-		font-size: 5em;
-		margin: 0 0 25px 0;
 	}
 	.why_box {
 		background: $blockgray;
@@ -85,6 +140,17 @@ body {
 	
 }
 
+.who {
+	color: white;
+	background: $blockblue;
+	P {
+		width: 80%;
+		margin: 0 auto 25PX auto;
+	}
+}
+
+.how {
+}
 
 .elbook {
 	visibility: hidden;
