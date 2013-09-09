@@ -94,14 +94,23 @@ li:nth-child(5) {
       .intro_container .intro .introimg img {
         width: 100%; }
     .intro_container .intro .icons {
-      margin: 0 0 0 270px; }
-      .intro_container .intro .icons .icon_box .icon_content {
-        text-align: center; }
-        .intro_container .intro .icons .icon_box .icon_content img {
-          width: 100%; }
-        .intro_container .intro .icons .icon_box .icon_content h3 {
-          font-weight: 300;
-          font-size: 2em; }
+      margin: 0 0 0 200px; }
+      .intro_container .intro .icons .icon_box {
+        margin: 0 5em 0 0; }
+        .intro_container .intro .icons .icon_box .icon_content {
+          text-align: center; }
+          .intro_container .intro .icons .icon_box .icon_content img {
+            width: 100%; }
+          .intro_container .intro .icons .icon_box .icon_content h3 {
+            font-weight: 300;
+            font-size: 3.5em;
+            margin: 0; }
+    .intro_container .intro .introtext {
+      margin: 25px 0 25px 0; }
+      .intro_container .intro .introtext .hello {
+        width: 80%;
+        margin: 0 auto;
+        font-size: 1.3em; }
     .intro_container .intro .apply_button {
       background: #f05353;
       text-align: center;
@@ -117,15 +126,6 @@ li:nth-child(5) {
           text-transform: uppercase;
           font-weight: 300;
           margin: 0; }
-
-.introtext {
-  background: #4EB96E;
-  padding: 25px; }
-  .introtext .hello {
-    width: 80%;
-    margin: 0 auto;
-    color: white;
-    font-size: 1.5em; }
 
 .why {
   background: #2c3e50; }
