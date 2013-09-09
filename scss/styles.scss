@@ -117,8 +117,9 @@ li:nth-child(5) {
 			}
 		}
 		.icons {
-			margin: 0 0 0 270px;
+			margin: 0 0 0 200px;
 			.icon_box {
+				margin: 0 5em 0 0;
 				.icon_content {
 					text-align: center;				
 					img {
@@ -126,10 +127,20 @@ li:nth-child(5) {
 						}
 					h3 {
 						font-weight: 300;
-						font-size: 2em;
+						font-size: 3.5em;
+						margin: 0;
 					}
 				}
 			}
+		}
+		.introtext {
+			margin: 25px 0 25px 0;
+			.hello {
+				width: 80%;
+				margin: 0 auto;
+				font-size: 1.3em;
+			}
+			
 		}
 		.apply_button {
 			background: $red;
@@ -150,19 +161,6 @@ li:nth-child(5) {
 		}
 	}
 }
-
-.introtext {
-	background: #4EB96E;
-	padding: 25px;
-	.hello {
-		width: 80%;
-		margin: 0 auto;
-		color: white;
-		font-size: 1.5em;
-	}
-	
-}
-
 
 .why {
 	background: #2c3e50;
