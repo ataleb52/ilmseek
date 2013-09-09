@@ -70,7 +70,11 @@ body {
 	}
 }
 
-
+li:nth-child(5) {
+	background: #F05353;
+	border-bottom: 3px solid #B24040;
+	padding: 5px 10px;
+}
 
 /**
 .navbar {
@@ -100,28 +104,66 @@ body {
 }
 **/
 
-.intro {
+.intro_container {
 	background: $blockgray;
-	.introimg {
-		width: 55%;
-		margin: 0 auto;
-		background: blue;
-		img {
-			width: 100%;
+	.intro {
+		background: $blockgray;
+		.introimg {
+			width: 35%;
 			margin: 0 auto;
-			background: red;
+			img {
+				width: 100%;
+			}
+		}
+		.icons {
+			.icon_box {
+				text-align: center;
+				float: left;
+				width: 20%;
+				.icon_content {
+					img {
+						width: 100%;
+						}
+					h3 {
+						font-weight: 300;
+						font-size: 2em;
+					}
+				}
+			}
+		}
+		.apply_button {
+			background: $red;
+			text-align: center;
+			color: white;
+			border-bottom: 3px solid #B24040;
+			h3 {
+			font-size: 3em;
+			text-transform: uppercase;
+			font-weight: 300;
+			padding: 0;
+			}
 		}
 	}
 }
 
+.introtext {
+	background: #4EB96E;
+	padding: 25px;
+	.hello {
+		width: 80%;
+		margin: 0 auto;
+		color: white;
+		font-size: 1.5em;
+	}
+	
+}
+
 
 .why {
-	.introtext {
-		width: 80%;
-		margin: 25px auto;
-	}
+	background: #2c3e50;
 	h2 {
 		clear: both;
+		color: white;
 	}
 	.why_box {
 		background: $blockgray;
@@ -143,6 +185,7 @@ body {
 .who {
 	color: white;
 	background: $blockblue;
+	margin: 0;
 	P {
 		width: 80%;
 		margin: 0 auto 25PX auto;
@@ -150,6 +193,28 @@ body {
 }
 
 .how {
+	background: #F05353;
+	color: white;
+	margin: 0;
+	.how_box {
+		img {
+			float: left;
+		}
+		.how_info{
+			float: right;
+			margin: 0;
+			h3 {
+				font-weight: 300;
+				font-size: 3.5em;
+			}
+		}
+		.albook {
+			float: right;
+			.alinfo {
+				float: left;
+			}	
+		}
+	}
 }
 
 .elbook {
