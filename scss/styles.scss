@@ -162,27 +162,27 @@ li:nth-child(5) {
 	}
 }
 
-.why {
-	background: #2c3e50;
-	h2 {
-		clear: both;
-		color: white;
-	}
-	.why_box {
-		background: $blockgray;
-		border: 2px solid $shadowgray;
-		text-align: center;
-		width: 309.34px;
-		height: 400px;
-		.why_content {
-			margin: 3em 0 0 0;
-			h3 {
-				font-weight: 300;
-				font-size: 2.5em;
+.phil_cont {
+	.why {
+		padding: 25px 0;
+		h2 {
+			clear: both;
+		}
+		.why_box {
+			text-align: center;
+			.why_content {
+				h3 {
+					font-weight: 300;
+					font-size: 2.5em;
+					margin: 0;
+				}
+				p{
+					text-align: center;
+				}
 			}
 		}
+		
 	}
-	
 }
 
 .who {
