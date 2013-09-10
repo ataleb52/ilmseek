@@ -20,6 +20,11 @@ body {
     text-align: center;
     font-size: 5em;
     margin: 0 0 25px 0; }
+  body h3 {
+    margin: 0; }
+  body p {
+    font-size: 25px;
+    margin: 0; }
 
 .navbar {
   position: relative;
@@ -56,33 +61,6 @@ li:nth-child(5) {
   border-bottom: 3px solid #B24040;
   padding: 5px 10px; }
 
-/**
-.navbar {
-	background: white;
-	border-bottom: 5px solid $shadowgray;
-	background: orange;
-	margin: 0;
-	text-transform: uppercase;
-	ul {
-		list-style: none;
-		background: tomato;
-		width: 80%;
-		margin: 0 auto;
-		li {
-			display: inline-block;
-			margin: 0 2em;
-			a {
-				text-decoration: none;
-				color: black;
-				h1 {
-					margin: 0;
-					color: $shadowgray;
-				}
-			}
-		}
-	}
-}
-**/
 .intro_container {
   background: #efefef;
   padding: 0 0 25px 0; }
@@ -103,67 +81,67 @@ li:nth-child(5) {
             width: 100%; }
           .intro_container .intro .icons .icon_box .icon_content h3 {
             font-weight: 300;
-            font-size: 3.5em;
-            margin: 0; }
+            font-size: 3.5em; }
     .intro_container .intro .introtext {
       margin: 25px 0 25px 0; }
       .intro_container .intro .introtext .hello {
         width: 80%;
         margin: 0 auto;
-        font-size: 1.3em; }
+        font-size: 25px; }
     .intro_container .intro .apply_button {
       background: #f05353;
       text-align: center;
       color: white;
       border-bottom: 5px solid #B24040;
       width: 500px;
-      margin: 0 auto; }
+      margin: 0 auto;
+      border-radius: 10px; }
       .intro_container .intro .apply_button a {
         text-decoration: none;
         color: white; }
         .intro_container .intro .apply_button a h3 {
           font-size: 3em;
-          text-transform: uppercase;
-          font-weight: 300;
-          margin: 0; }
+          font-weight: 300; }
 
-.phil_cont .why {
-  padding: 25px 0; }
-  .phil_cont .why h2 {
-    clear: both; }
-  .phil_cont .why .why_box {
-    text-align: center; }
-    .phil_cont .why .why_box .why_content h3 {
-      font-weight: 300;
-      font-size: 2.5em;
-      margin: 0; }
-    .phil_cont .why .why_box .why_content p {
+.phil_cont {
+  background: #f39c12;
+  color: white; }
+  .phil_cont .why {
+    padding: 25px 0; }
+    .phil_cont .why h2 {
+      clear: both; }
+    .phil_cont .why .why_box {
       text-align: center; }
+      .phil_cont .why .why_box .why_content h3 {
+        font-weight: 300;
+        font-size: 2.5em; }
+      .phil_cont .why .why_box .why_content p {
+        text-align: center; }
 
-.who {
-  color: white;
-  background: #3b97d3;
-  margin: 0; }
-  .who P {
-    width: 80%;
-    margin: 0 auto 25PX auto; }
-
-.how {
-  background: #F05353;
-  color: white;
-  margin: 0; }
-  .how .how_box img {
-    float: left; }
-  .how .how_box .how_info {
-    float: right;
-    margin: 0; }
-    .how .how_box .how_info h3 {
-      font-weight: 300;
-      font-size: 3.5em; }
-  .how .how_box .albook {
-    float: right; }
-    .how .how_box .albook .alinfo {
+.how_container {
+  background: #F05353; }
+  .how_container .how {
+    color: white; }
+    .how_container .how .how_box img {
       float: left; }
+    .how_container .how .how_box .how_info {
+      float: right; }
+      .how_container .how .how_box .how_info h3 {
+        font-weight: 300;
+        font-size: 3.5em; }
+    .how_container .how .how_box .albook {
+      float: right; }
+      .how_container .how .how_box .albook .alinfo {
+        float: left; }
+
+.who_container {
+  background: #3b97d3;
+  padding: 0 0 25px 0; }
+  .who_container .who {
+    color: white; }
+    .who_container .who p {
+      width: 80%;
+      margin: 0 auto; }
 
 .elbook {
   visibility: hidden; }
