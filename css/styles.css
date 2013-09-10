@@ -139,9 +139,6 @@ li:nth-child(5) {
   padding: 0 0 25px 0; }
   .who_container .who {
     color: white; }
-    .who_container .who p {
-      width: 80%;
-      margin: 0 auto; }
 
 .elbook {
   visibility: hidden; }
