@@ -121,6 +121,7 @@ li:nth-child(5) {
 .how_container {
   background: #F05353; }
   .how_container .how {
+    padding: 25px 0;
     color: white; }
     .how_container .how .how_box img {
       float: left; }
@@ -134,11 +135,25 @@ li:nth-child(5) {
       .how_container .how .how_box .albook .alinfo {
         float: left; }
 
-.who_container {
+.what_container {
   background: #3b97d3;
-  padding: 0 0 25px 0; }
+  color: white; }
+  .what_container .what {
+    padding: 25px 0; }
+    .what_container .what ul {
+      list-style: none;
+      margin: 0; }
+      .what_container .what ul li {
+        margin: 25px 0 0 0; }
+        .what_container .what ul li span:nth-of-type(1) {
+          font-weight: bold;
+          font-size: 30px; }
+
+.who_container {
+  background: #59bd7e; }
   .who_container .who {
-    color: white; }
+    color: white;
+    padding: 25px 0; }
 
 .elbook {
   visibility: hidden; }
