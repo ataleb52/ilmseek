@@ -114,11 +114,15 @@ body {
 			}
 		}
 		.introtext {
-			margin: 25px 0 25px 0;
 			.hello {
 				width: 80%;
 				margin: 0 auto;
-				font-size: 25px;
+				ol, ul {
+					font-size: 25px;
+					h3 {
+						font-size: 1.5em; 
+					}
+				}	
 			}
 			
 		}
@@ -132,7 +136,7 @@ body {
 	border-bottom: 5px solid #B24040;
 	width: 500px;
 	margin: 0 auto;
-	border-radius: 10px;
+	border-radius: 5px;
 	a {
 		text-decoration: none;
 		color: white;
@@ -141,6 +145,10 @@ body {
 			font-weight: 300;				
 		}
 	}
+}
+
+.deuce {
+	margin-bottom: 25px;
 }
 
 .apply_alt {
@@ -212,7 +220,7 @@ body {
 		padding: 25px 0;
 		ul {
 			list-style: none;
-			margin: 0;
+			margin: 0 0 25px 0;
 			padding: 0;
 			li {
 				margin: 25px 0 0 0;
@@ -246,6 +254,7 @@ body {
 .ready_container {
 	background: #9a5b9f;
 	color: white;
+	padding-bottom: 25px;
 	.ready {
 		padding: 25px 0;
 		text-align: center;
@@ -279,5 +288,61 @@ body {
 	}
 }
 
+.footer_container {
+	background: $blockblue;
+	padding: 25px 0 0 0;
+	.footer {
+	}
+}
 
+.green {
+	background: #59bd7e;
+	border-bottom: 10px solid #3c8e5a;
+	padding: .5em;
+	font-size: 1.2em;
+	width: 350px;
+}
 
+.up_circle {
+	border-radius: 50px;
+	width: 60px;
+	height: 55px;
+	margin: 0 auto;
+	p {
+			font-size: 15px;
+			color: white;
+		}
+}
+
+.arrow-up {
+	width: 0; 
+	height: 0; 
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	border-bottom: 30px solid #59bd7e;
+	margin: auto auto;
+}
+
+a {
+	text-decoration: none;
+}
+
+.blue {
+	border-bottom: 30px solid $blockblue;
+}
+
+.red_arrow {
+	border-bottom: 30px solid #F05353;
+}
+
+.yellow_arrow {
+	border-bottom: 30px solid #f39c12;
+	clear: both;
+}
+.cii {
+	clear: both;
+}
+
+.purp_arrow {
+	border-bottom: 30px solid #9a5b9f;
+}
