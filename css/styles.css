@@ -14,7 +14,8 @@ Author URI: http://www.ahmadtaleb.com
 
 body {
   font-family: 'open-sans', sans-serif;
-  font-weight: 300; }
+  font-weight: 300;
+  text-align: justify; }
   body h2 {
     font-weight: 300;
     text-align: center;
@@ -83,13 +84,15 @@ body {
           .intro_container .intro .icons .icon_box .icon_content h3 {
             font-weight: 300;
             font-size: 3.5em; }
-    .intro_container .intro .introtext .hello {
-      width: 80%;
-      margin: 0 auto; }
-      .intro_container .intro .introtext .hello ol, .intro_container .intro .introtext .hello ul {
-        font-size: 25px; }
-        .intro_container .intro .introtext .hello ol h3, .intro_container .intro .introtext .hello ul h3 {
-          font-size: 1.5em; }
+    .intro_container .intro .introtext {
+      margin-bottom: 25px; }
+      .intro_container .intro .introtext .hello {
+        width: 80%;
+        margin: 0 auto; }
+        .intro_container .intro .introtext .hello ol, .intro_container .intro .introtext .hello ul {
+          font-size: 25px; }
+          .intro_container .intro .introtext .hello ol h3, .intro_container .intro .introtext .hello ul h3 {
+            font-size: 1.5em; }
 
 .apply_button {
   background: #f05353;
@@ -131,7 +134,7 @@ body {
         width: 80%;
         margin: 0 auto;
         font-size: 25px;
-        text-align: left; }
+        text-align: justify; }
 
 .how_container {
   background: #F05353; }
